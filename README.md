@@ -1,6 +1,6 @@
 # Robustness of AI-Driven CT Diagnostic Systems Against Projection-Domain Adversarial Attacks
 
-A clean, push-ready research-code reconstruction for the paper **“Robustness of AI-Driven CT Diagnostic Systems Against Projection-Domain Adversarial Attacks: A Physics-Aware Evaluation Framework.”**
+Project codes for the paper **“Robustness of AI-Driven CT Diagnostic Systems Against Projection-Domain Adversarial Attacks: A Physics-Aware Evaluation Framework.”**
 
 This repository consolidates the supplied exploratory scripts into one implementation of the paper pipeline:
 
