@@ -1,0 +1,6 @@
+attack,baseline_adv_accuracy,baseline_accuracy_drop,baseline_adv_confidence,baseline_saliency_instability,rsdf_adv_accuracy,rsdf_accuracy_drop,rsdf_adv_confidence,rsdf_saliency_instability
+FGSM,0.6758,0.0515,0.7531,0.0841,0.7152,0.0333,0.7612,0.0612
+Physics proxy,0.6909,0.0364,0.7574,0.0714,0.7273,0.0212,0.7681,0.0523
+Geometry-aware,0.6576,0.0697,0.7488,0.1023,0.6970,0.0515,0.7574,0.0784
+Frequency-domain,0.6636,0.0636,0.7502,0.0967,0.7030,0.0455,0.7589,0.0741
+Universal (UPP),0.6485,0.0788,0.7461,0.1114,0.6848,0.0636,0.7541,0.0893

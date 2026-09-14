@@ -1,0 +1,34 @@
+seed: 0
+image_size: 256
+detector_samples: 256
+view_counts: [30, 60, 90, 120, 180]
+primary_views: 180
+projection_geometry: parallel_beam
+reconstruction: fbp_ramp
+apodization: none
+n0: 100000
+z_alpha: 1.96
+train:
+  batch_size: 32
+  optimizer: adam
+  learning_rate: 0.001
+  epochs: 20
+  augmentation: false
+  adversarial_training: false
+attacks:
+  norm: linf
+  primary_epsilon: 0.25
+  budget_sweep: [0.05, 0.10, 0.15, 0.20, 0.30]
+  confidence_sweep: [0.00, 0.20, 0.40, 0.60, 0.65, 0.75]
+  frequency_low_fraction_of_wmax: 0.1
+  frequency_high_fraction_of_wmax: 0.5
+  streak_view_count: 10
+  upp:
+    batch_size: 16
+    epochs: 20
+    step_size: 0.01
+    optimize_views: 180
+  adaptive_pgd:
+    steps: [10, 20, 40]
+    restarts: 3
+    alpha_fraction_of_epsilon: 0.1

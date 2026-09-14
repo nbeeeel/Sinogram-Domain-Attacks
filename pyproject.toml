@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ct-projection-robustness"
+version = "0.1.0"
+description = "Physics-aware projection-domain adversarial robustness evaluation for synthetic parallel-beam CT"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy>=1.24",
+  "torch>=2.1",
+  "scikit-image>=0.21",
+  "tqdm>=4.66",
+]
+
+[project.optional-dependencies]
+plot = ["matplotlib>=3.8", "pandas>=2.0"]
+dev = ["pytest>=8.0"]
+
+[project.scripts]
+ctrobust = "ctrobust.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+addopts = "-q"
+testpaths = ["tests"]

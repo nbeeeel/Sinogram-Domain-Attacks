@@ -1,0 +1,4 @@
+variant,baseline_relative_effectiveness_percent,rsdf_relative_effectiveness_percent,baseline_saliency_instability,rsdf_saliency_instability
+Unrestricted FGSM,100,100,0.0841,0.0612
+Low-frequency,67,44,0.0621,0.0457
+High-frequency,83,67,0.0763,0.0561

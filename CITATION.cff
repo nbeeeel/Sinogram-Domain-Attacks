@@ -1,0 +1,45 @@
+cff-version: 1.2.0
+message: "If you use this code, cite the associated paper."
+title: "Robustness of AI-Driven CT Diagnostic Systems Against Projection-Domain Adversarial Attacks: A Physics-Aware Evaluation Framework"
+type: software
+authors:
+  - family-names: Alkhattabi
+    given-names: Khalid
+  - family-names: Karamti
+    given-names: Hanen
+  - family-names: Abuzinadah
+    given-names: Nihal
+  - family-names: Khan
+    given-names: Nabeel Ahmed
+  - family-names: Alnowaiser
+    given-names: Khaled
+  - family-names: Umer
+    given-names: Muhammad
+  - family-names: Nam
+    given-names: Yunyoung
+  - family-names: Kang
+    given-names: Byeong-Gwon
+version: 0.1.0
+date-released: 2026-09-14
+preferred-citation:
+  type: article
+  title: "Robustness of AI-Driven CT Diagnostic Systems Against Projection-Domain Adversarial Attacks: A Physics-Aware Evaluation Framework"
+  authors:
+    - family-names: Alkhattabi
+      given-names: Khalid
+    - family-names: Karamti
+      given-names: Hanen
+    - family-names: Abuzinadah
+      given-names: Nihal
+    - family-names: Khan
+      given-names: Nabeel Ahmed
+    - family-names: Alnowaiser
+      given-names: Khaled
+    - family-names: Umer
+      given-names: Muhammad
+    - family-names: Nam
+      given-names: Yunyoung
+    - family-names: Kang
+      given-names: Byeong-Gwon
+  journal: "International Journal of Information Technology & Decision Making"
+  year: 2026

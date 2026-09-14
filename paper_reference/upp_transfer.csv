@@ -1,0 +1,6 @@
+views,baseline_accuracy_drop,rsdf_accuracy_drop,relative_reduction_percent
+180,0.0788,0.0636,19.3
+120,0.0727,0.0576,20.8
+90,0.0636,0.0515,19.0
+60,0.0606,0.0485,20.0
+30,0.0545,0.0424,22.2

@@ -1,0 +1,5 @@
+attack,steps,restarts,asr_percent
+FGSM,1,1,7.69
+PGD-10,10,3,8.46
+PGD-20,20,3,13.08
+PGD-40,40,3,13.85

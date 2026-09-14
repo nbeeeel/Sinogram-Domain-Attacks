@@ -1,0 +1,4 @@
+architecture,clean_accuracy,mean_confidence,mean_entropy
+Baseline CNN (3-block),0.7273,0.7610,0.4812
+CNN + RSDF,0.7485,0.7724,0.4633
+Deep CNN (5-block reference),0.7182,0.7539,0.4901

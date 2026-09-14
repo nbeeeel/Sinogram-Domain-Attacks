@@ -1,0 +1,7 @@
+attack,cnn3_drop,cnn3_rsdf_drop,cnn5_drop
+FGSM,0.0515,0.0333,0.0606
+Physics proxy,0.0364,0.0212,0.0424
+Geometry-aware,0.0697,0.0515,0.0788
+Frequency-domain,0.0636,0.0455,0.0727
+Universal (UPP),0.0788,0.0636,0.0909
+Mean,0.0600,0.0430,0.0691
